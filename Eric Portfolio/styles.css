@@ -20,6 +20,10 @@ body {
 	font-family: "Zilla Slab", serif;
 }
 
+a {
+	text-decoration: none;
+}
+
 /****** HEADER SECTION *******/
 header {
 	display: flex;
@@ -67,13 +71,11 @@ header {
 .nav__link {
 	color: #fff;
 	margin: 0px 1rem;
-	text-decoration: none;
 	position: relative;
 }
 .scrolled__nav__link {
 	color: #000;
 	margin: 0px 1rem;
-	text-decoration: none;
 	position: relative;
 }
 .nav__link:hover .strthru__hover {
