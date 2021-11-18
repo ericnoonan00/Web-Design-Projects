@@ -43,8 +43,9 @@
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <script>
     // hero typing effect
+    const TYPED_STRINGS = ["eric noonan", "ethan schroeder", 'danny keene', 'victor richero'];
     var typed = new Typed('.hero__title', {
-      strings: ["eric noonan...", "ethan schroeder...", 'danny keene...'],
+      strings: TYPED_STRINGS,
       typeSpeed: 60,
       showCursor: false,
       smartBackspace: true,
@@ -82,63 +83,56 @@
     }
   </script>
   <main id="main">
-    <section class="main__section" id="section__1">
-      <div class="main__section__title">
-        <h1 class="left__header">Title of Section 1</h1>
-      </div>
-      <div class="grid__section">
+    <div class="main__section" id="about__section">
+      <section class="main__section__title" id="about__section__title">
+        <h1>Hi, I'm Eric...</h1>
+      </section>
+      <section class="flex__center" id="about__text__section">
+        <p>...and I <i><b>really</b></i> like web design!</p>
+        <p>I promise to write something cool but for now here is some lorem: Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Nisi, harum non neque reiciendis mollitia, accusamus ratione minima provident necessitatibus
+          minus ipsum omnis ipsa autem? Architecto reprehenderit ex fuga! Distinctio, repudiandae. Lorem ipsum dolor sit
+          amet consectetur adipisicing elit.</p>
+      </section>
+    </div>
+    <div class="main__section" id="project__section">
+      <section class="grid__section" id="project__grid">
+        <a href="https://codepen.io/ericnoonan00/full/oNWaKRL" target="_blank" class="grid__item" id="p1">
+          <p>Product Landing Page</p>
+        </a>
+        <a href="https://codepen.io/ericnoonan00/full/wvdyvMQ" target="_blank" class="grid__item" id="p2">
+          <p>Survey Form</p>
+        </a>
+        <a href="https://main.d32m86il0cmf05.amplifyapp.com/" target="_blank" class="grid__item" id="p3">
+          <p>Todo List with React.js</p>
+        </a>
+        <a href="https://codepen.io/ericnoonan00/full/GRmwWEq" target="_blank" class="grid__item" id="p4">
+          <p>Technical Documentation</p>
+        </a>
+      </section>
+      <section class="main__section__title" id="project__section__title">
+        <h1>Here are some of the projects that I built...</h1>
+      </section>
+    </div>
+    <div class="main__section" id="section__3">
+      <section class="main__section__title" id="main__section__3__title">
+        <h1>Title of Section 3</h1>
+      </section>
+      <section class="grid__section">
         <div class="grid__item">
-          <p class="grid__item__text">1</p>
+          <p>1</p>
         </div>
         <div class="grid__item">
-          <p class="grid__item__text">2</p>
+          <p>2</p>
         </div>
         <div class="grid__item">
-          <p class="grid__item__text">3</p>
+          <p>3</p>
         </div>
         <div class="grid__item">
-          <p class="grid__item__text">4</p>
+          <p>4</p>
         </div>
-      </div>
-    </section>
-    <section class="main__section" id="section__2">
-      <div class="grid__section">
-        <div class="grid__item">
-          <p class="grid__item__text">1</p>
-        </div>
-        <div class="grid__item">
-          <p class="grid__item__text">2</p>
-        </div>
-        <div class="grid__item">
-          <p class="grid__item__text">3</p>
-        </div>
-        <div class="grid__item">
-          <p class="grid__item__text">4</p>
-        </div>
-      </div>
-      <div class="main__section__title">
-        <h1 class="left__header">Title of Section 2</h1>
-      </div>
-    </section>
-    <section class="main__section" id="section__3">
-      <div class="main__section__title">
-        <h1 class="left__header">Title of Section 3</h1>
-      </div>
-      <div class="grid__section">
-        <div class="grid__item">
-          <p class="grid__item__text">1</p>
-        </div>
-        <div class="grid__item">
-          <p class="grid__item__text">2</p>
-        </div>
-        <div class="grid__item">
-          <p class="grid__item__text">3</p>
-        </div>
-        <div class="grid__item">
-          <p class="grid__item__text">4</p>
-        </div>
-      </div>
-    </section>
+      </section>
+    </div>
   </main>
 </body>
 
