@@ -231,14 +231,15 @@ header {
 }
 /* about */
 #about__section__title {
-	font-size: 4.5rem;
+	font-size: 5em;
 	background: linear-gradient(
 		to bottom,
 		var(--color-primary),
 		var(--color-primary-shaded)
 	);
 	color: var(--color-secondary);
-	text-shadow: 5px 5px 0 rgb(0 0 0 / .9);
+	text-shadow: -5px 5px 0 rgb(0 0 0 / .9);
+	text-align: center;
 }
 #about__text__section {
 	flex-direction: column;
